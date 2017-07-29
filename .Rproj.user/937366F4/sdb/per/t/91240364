@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "exportPattern(\"^[[:alpha:]]+\")\nimportFrom(\"stats\", \"chisq.test\", \"dhyper\", \"median\", \"pchisq\",\n             \"qchisq\", \"qnorm\", \"sd\")\nimportFrom(\"utils\", \"combn\")\nimportFrom(\"ORCI\", \"Woolf.CI\",\"Gart.CI\",\"Agrestiind.CI\",\"MOVER.CI\",\"Cornfieldexact.CI\",\"Cornfieldmidp.CI\",\"BPexact.CI\",\"BPmidp.CI\",\"Invsinh.CI\")\nimportFrom(\"PropCIs\",\"orscoreci\")\nimportFrom(\"exact2x2\",\"blaker.exact\",\"fisher.exact\",\"exact2x2\")\nimportFrom(\"metafor\",\"escalc\")\nimportFrom(\"pairwiseCI\",\"Prop.diff\",\"Prop.ratio\",\"Prop.or\")\nimportFrom(\"ggplot2\",\"ggplot\",\"aes\",\"geom_point\",\"geom_text\",\"geom_line\",\n           \"geom_tile\", \"scale_fill_gradient\", \"geom_ribbon\",\n       \"labs\",\"geom_hline\",\"facet_wrap\",\"facet_grid\",\"ylab\")\nimportFrom(\"tidyr\",\"gather\")\nimportFrom(\"plyr\",\"mutate\")\nimportFrom(\"dplyr\",\"tbl_df\")\nimportFrom(\"magrittr\",\"%>%\")\nimportFrom(\"tibble\",\"rownames_to_column\")\n",
+    "created" : 1501005468332.000,
+    "dirty" : false,
+    "encoding" : "ISO8859-1",
+    "folds" : "",
+    "hash" : "2905309989",
+    "id" : "91240364",
+    "lastKnownWriteTime" : 1501305243,
+    "last_content_update" : 1501305243032,
+    "path" : "D:/Research/CDA/vcdPlus/NAMESPACE",
+    "project_path" : "NAMESPACE",
+    "properties" : {
+    },
+    "relative_order" : 8,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_namespace"
+}

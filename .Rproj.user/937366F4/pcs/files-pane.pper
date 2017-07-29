@@ -1,0 +1,13 @@
+{
+    "path" : "D:/Research/CDA/vcdPlus/R",
+    "sortOrder" : [
+        {
+            "ascending" : true,
+            "columnIndex" : 2
+        },
+        {
+            "ascending" : false,
+            "columnIndex" : 4
+        }
+    ]
+}

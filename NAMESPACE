@@ -1,0 +1,17 @@
+exportPattern("^[[:alpha:]]+")
+importFrom("stats", "chisq.test", "dhyper", "median", "pchisq",
+             "qchisq", "qnorm", "sd")
+importFrom("utils", "combn")
+importFrom("ORCI", "Woolf.CI","Gart.CI","Agrestiind.CI","MOVER.CI","Cornfieldexact.CI","Cornfieldmidp.CI","BPexact.CI","BPmidp.CI","Invsinh.CI")
+importFrom("PropCIs","orscoreci")
+importFrom("exact2x2","blaker.exact","fisher.exact","exact2x2")
+importFrom("metafor","escalc")
+importFrom("pairwiseCI","Prop.diff","Prop.ratio","Prop.or")
+importFrom("ggplot2","ggplot","aes","geom_point","geom_text","geom_line",
+           "geom_tile", "scale_fill_gradient", "geom_ribbon",
+       "labs","geom_hline","facet_wrap","facet_grid","ylab")
+importFrom("tidyr","gather")
+importFrom("plyr","mutate")
+importFrom("dplyr","tbl_df")
+importFrom("magrittr","%>%")
+importFrom("tibble","rownames_to_column")

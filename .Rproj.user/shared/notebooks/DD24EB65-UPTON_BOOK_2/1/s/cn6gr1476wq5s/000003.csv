@@ -1,0 +1,7 @@
+"0","require(proportion)
+n=250
+x=50
+alp=0.05
+ciAllx(x, n, alp)
+"
+"0","rbind(ciEXx(x,n,alp,e=0.5),ciEXx(x,n,alp,e=1),ciEXx(x,n,alp,e=0.25))"

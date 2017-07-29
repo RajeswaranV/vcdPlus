@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "---\ntitle: \"Basic_Details I x J\"\nauthor: \"Subbiah\"\ndate: \"8 July 2017\"\noutput: html_document\n---\n\nPlease verify whether these summaries are included in the earlier worked out summary measures for general I x J table (I, J > 2)\n\n```{r}\n##########################Given Data\ndaa1=matrix(c(178,\t138,\t108,\t570,\t648,\t442,\t138,\t252,\t252),3,3, byrow = TRUE)  #Agresti 2002, pg-80\nmat=daa1\nnr=nrow(mat)\nnc=ncol(mat)\nn=sum(mat)\nk=length(mat)\n#----------------------------\n###########Check for zero rows/columns#####################.\nrs=0\t##Row sums\nrz=0\t##All Zero Rows\ncs=0\t##Column sums\ncz=0\t##All Zero Column \nfor (i in 1:nr)\n{\n  rs[i]=sum(mat[i,])\n  if (rs[i]==0)\n  {\n    rz=rz+1\n  }\n}\nfor (j in 1:nc)\n{\n  cs[j]=sum(mat[,j])\n  if (cs[j]==0)\n  {\n    cz=cz+1\n  }\n}\n#---------------------------------------------------------\n###########Check for low counts (+ve but < 6)#####################\nlc=length(which(mat<6 & mat>0))\nzc=length(which(mat==0))\nper_lc=round(100*lc/k,2)\nper_zc=round(100*zc/k,2)\n#--------------------------------------------------------------------\n###########Finding Row/Column range#####################\nRR=0\t##Range_Row\nRC=0  ##Range_Column\nfor (i in 1:nr)\n{\n  RR[i]=max(mat[i,])- min(mat[i,])\n}\nfor (j in 1:nc)\n{\n  RC[j]=max(mat[,j])-min(mat[,j])\n}\n\nmxRR=max(RR)\nmxCR=max(RC)\n#---------------------------------------------------------------\n###########Median based Metric###########\nct=0\nx=as.vector(mat)\nra=max(x)-min(x)\nme=median(x)\nsq=sqrt(k)\nLL=me-(1.96*ra/(6*sq))\nUL=me+(1.96*ra/(6*sq))\nif(LL<0) LL = 0\nfor(j in 1:k)\n{\n  if(x[j]>= LL && x[j] <= UL)\n  {\n    ct=ct+1\n  }\n}\nctp=round(100*ct/k,3)\t#% of count whilch lie b/w LL and UL\n#------------------------------------------------------------------------------\n#Based on S\nt1=round(n/k,3)\ndmat=as.vector(mat-t1)\nPoQo=round(sd(dmat),3)    #polarizing Quotient = SD(Difference) = SD(xij - T)\nPoQo_Norm=round(sd(dmat)/(max(dmat)-min(dmat)),3) #Normed polarizing Quotient\nFS=(dmat-min(dmat))/(max(dmat)-min(dmat)) #Feature scaling\n###############RESULTS\nres=cbind(k,n,per_lc,per_zc,me,ctp,t1,PoQo,PoQo_Norm)    #Summary\ncolnames(res)=c(\"Size\",\"Total\",\"LowCnt%\", \"ZeroCnt%\",\"Median\",\"NearMed%\",\"SymMeas\",\"PolQuo\",\"NPolQuo\")\nres\nplot(x,xlab=\" \" , ylab=\"Data\",main = \"Median Based\")\nabline(h=LL,col=2)\nabline(h=me,col=3)\nabline(h=UL,col=4)\ntext(1:k, x,  labels=mat, cex= 0.7, pos=2)\n\nplot(FS,xlab=\" \" , ylab=\"Data\",main = \"Feature scaling Based\")\ntext(1:k, FS,  labels=mat, cex= 0.5, pos=2)\nabline(h=mean(FS),col=2)\n```\n\n\n**Let us stop here at this moment though we can (have to) study Feasture scaling Ploarization more deeply\"\"\n",
+    "created" : 1500999525990.000,
+    "dirty" : false,
+    "encoding" : "ISO8859-1",
+    "folds" : "",
+    "hash" : "3148282750",
+    "id" : "4C4D32C0",
+    "lastKnownWriteTime" : 1499571665,
+    "last_content_update" : 1499571665,
+    "path" : "D:/Research/CDA/Discussions/IxJ_Basic Details.Rmd",
+    "project_path" : null,
+    "properties" : {
+    },
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
