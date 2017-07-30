@@ -33,3 +33,6 @@ Other The summary of measures for categorical data: \code{\link{SumCount}},
   \code{\link{SumMedianSD}}, \code{\link{SumZeroData}},
   \code{\link{SummaryData}}
 }
+\author{
+Subbiah and Balakrishna  S Kesavan
+}

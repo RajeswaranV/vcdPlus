@@ -37,7 +37,11 @@ A Tests of statistical hypotheses concerning several parameters when the number 
 Trans. Am. Math. Soc. 54 (1943) 426-482.
 }
 \seealso{
-Other Confidence Interval for Multinomial Proportion: \code{\link{ci.FS}},
-  \code{\link{ci.GM}}, \code{\link{ci.QH}},
+Other Confidence Interval for Multinomial Proportion: \code{\link{ci.BMDU}},
+  \code{\link{ci.FS}}, \code{\link{ci.GM}},
+  \code{\link{ci.QH}}, \code{\link{ci.SG}},
   \code{\link{ci.WS}}, \code{\link{ci.WaldCC}}
+}
+\author{
+Subbiah and Balakrishna S Kesavan
 }

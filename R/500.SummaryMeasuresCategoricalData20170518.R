@@ -10,6 +10,7 @@
 #'  \item{Value}{ Calculated value of counts}
 #' @details  The function calculates the number of rows and columns which are all zeros, in the given range
 #' @family The summary of measures for categorical data
+#' @author Subbiah and Balakrishna  S Kesavan
 #' @examples
 #' x=c(7,61,55,129,489,570,475,431,293,154,38,12)
 #' inpmat = cbind(x[1:4],x[5:8],x[9:12])
@@ -56,6 +57,7 @@ SumZeroData <- function(inpmat, start.col = NULL, end.col = NULL){
 #'  \item{Value}{ Calculated value of features}
 #' @details  The function calculates the number and percentage of cells which are all zeros within the given range
 #' @family The summary of measures for categorical data
+#' @author Subbiah and Balakrishna  S Kesavan
 #' @examples
 #' x=c(7,61,55,129,489,570,475,431,293,154,38,12)
 #' inpmat = cbind(x[1:4],x[5:8],x[9:12])
@@ -101,6 +103,7 @@ SumCount <- function(inpmat, min = NULL, max = NULL){
 #'  \item{Value}{ Calculated value of features}
 #' @details  The function calculates the min, max and range of values in a given matrix
 #' @family The summary of measures for categorical data
+#' @author Subbiah and Balakrishna  S Kesavan
 #' @examples
 #' x=c(7,61,55,129,489,570,475,431,293,154,38,12)
 #' inpmat = cbind(x[1:4],x[5:8],x[9:12])
@@ -139,6 +142,7 @@ SumMinMaxRange <- function(inpmat){
 #'  "Percentage of cells in the input whose values lie between the upper and lower limits" showing the percentage of the cells which fall within this range"}
 #'  \item{Value}{ Calculated value of features}
 #' @details  The function calculates the Median, SD, Lower limit (defined as median - 3SD), Upper limit (defined as median + 3*SD) and the percentage of the cells which fall within this range
+#' @author Subbiah and Balakrishna  S Kesavan
 #' @family The summary of measures for categorical data
 #' @examples
 #' x=c(7,61,55,129,489,570,475,431,293,154,38,12)
@@ -183,6 +187,7 @@ SumMedianSD <- function(inpmat){
 #'  \item{SumMinMaxRange}{  Calculates the min, max and range of values in a given matrix}
 #'  \item{SumMedianSD}{  Calculates median, SD, upper limit, lower limit and cell values within these limits}
 #' @details  The function calculates the summary using
+#' @author Subbiah and Balakrishna  S Kesavan
 #' @family The summary of measures for categorical data
 #' @examples
 #' x=c(7,61,55,129,489,570,475,431,293,154,38,12)

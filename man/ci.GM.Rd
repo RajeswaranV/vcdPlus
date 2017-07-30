@@ -33,7 +33,11 @@ On Simultaneous Confidence Intervals for Multinomial Proportions.
 Technometrics 7: 247-254.
 }
 \seealso{
-Other Confidence Interval for Multinomial Proportion: \code{\link{ci.FS}},
-  \code{\link{ci.QH}}, \code{\link{ci.WS}},
+Other Confidence Interval for Multinomial Proportion: \code{\link{ci.BMDU}},
+  \code{\link{ci.FS}}, \code{\link{ci.QH}},
+  \code{\link{ci.SG}}, \code{\link{ci.WS}},
   \code{\link{ci.WaldCC}}, \code{\link{ci.Wald}}
+}
+\author{
+Subbiah and Balakrishna S Kesavan
 }

@@ -36,3 +36,6 @@ Other The summary of measures for categorical data: \code{\link{SumCount}},
   \code{\link{SumMinMaxRange}}, \code{\link{SumZeroData}},
   \code{\link{SummaryData}}
 }
+\author{
+Subbiah and Balakrishna  S Kesavan
+}

@@ -23,7 +23,8 @@ Imports:
     exact2x2,
     ORCI,
     PropCIs,
-    pairwiseCI
+    pairwiseCI,
+    rBeta2009
 Suggests:
     knitr,
     rmarkdown

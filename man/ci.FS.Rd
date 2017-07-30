@@ -35,7 +35,11 @@ Quick simultaneous confidence interval for multinomial proportions.
 Journal of American Statistical Association 82(399): 875-878.
 }
 \seealso{
-Other Confidence Interval for Multinomial Proportion: \code{\link{ci.GM}},
-  \code{\link{ci.QH}}, \code{\link{ci.WS}},
+Other Confidence Interval for Multinomial Proportion: \code{\link{ci.BMDU}},
+  \code{\link{ci.GM}}, \code{\link{ci.QH}},
+  \code{\link{ci.SG}}, \code{\link{ci.WS}},
   \code{\link{ci.WaldCC}}, \code{\link{ci.Wald}}
+}
+\author{
+Subbiah and Balakrishna S Kesavan
 }

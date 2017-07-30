@@ -7,6 +7,7 @@
 #'  \item{QH.LowLim}{  Dataframe of QH Lower Limits}
 #'  \item{QH.Length}{  Dataframe of QH Lengths}
 #' @family Confidence Interval for Multinomial Proportion
+#' @author Subbiah and Balakrishna S Kesavan
 #' @examples
 #' x = c(56,72,73,59,62,87,68,99,98)
 #' inpmat = cbind(x[1:3],x[4:6],x[7:9])
@@ -55,6 +56,7 @@ ci.QH<-function(inpmat, alpha)
 #'  \item{GM.LowLim}{  Dataframe of GM Lower Limits}
 #'  \item{GM.Length}{  Dataframe of GM Lengths}
 #' @family Confidence Interval for Multinomial Proportion
+#' @author Subbiah and Balakrishna S Kesavan
 #' @examples
 #' x = c(56,72,73,59,62,87,68,99,98)
 #' inpmat = cbind(x[1:3],x[4:6],x[7:9])
@@ -101,6 +103,7 @@ ci.GM<-function(inpmat, alpha)
 #'  \item{Wald.LowLim}{  Dataframe of Wald Lower Limits}
 #'  \item{Wald.Length}{  Dataframe of Wald Lengths}
 #' @family Confidence Interval for Multinomial Proportion
+#' @author Subbiah and Balakrishna S Kesavan
 #' @examples
 #' x = c(56,72,73,59,62,87,68,99,98)
 #' inpmat = cbind(x[1:3],x[4:6],x[7:9])
@@ -146,6 +149,7 @@ ci.Wald<-function(inpmat, alpha)
 #'  \item{WaldCC.LowLim}{  Dataframe of Wald Lower Limits}
 #'  \item{WaldCC.Length}{  Dataframe of Wald Lengths}
 #' @family Confidence Interval for Multinomial Proportion
+#' @author Subbiah and Balakrishna S Kesavan
 #' @examples
 #' x = c(56,72,73,59,62,87,68,99,98)
 #' inpmat = cbind(x[1:3],x[4:6],x[7:9])
@@ -188,6 +192,7 @@ ci.WaldCC<-function(inpmat, alpha)
 #'  \item{WaldCC.LowLim}{  Dataframe of Wald Lower Limits}
 #'  \item{WaldCC.Length}{  Dataframe of Wald Lengths}
 #' @family Confidence Interval for Multinomial Proportion
+#' @author Subbiah and Balakrishna S Kesavan
 #' @examples
 #' x = c(56,72,73,59,62,87,68,99,98)
 #' inpmat = cbind(x[1:3],x[4:6],x[7:9])
@@ -233,6 +238,7 @@ ci.FS<-function(inpmat, alpha)
 #'  \item{WaldCC.LowLim}{  Dataframe of Wald Lower Limits}
 #'  \item{WaldCC.Length}{  Dataframe of Wald Lengths}
 #' @family Confidence Interval for Multinomial Proportion
+#' @author Subbiah and Balakrishna S Kesavan
 #' @examples
 #' x = c(56,72,73,59,62,87,68,99,98)
 #' inpmat = cbind(x[1:3],x[4:6],x[7:9])
