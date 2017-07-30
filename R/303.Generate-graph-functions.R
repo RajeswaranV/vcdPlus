@@ -194,7 +194,7 @@ if(RS.all.or>0 & RS.zero.or>0){
 
 } # End of OR function
 
-#'############################################################################################################
+#############################################################################################################
 #'  Given an 2x2 table with ai, bi, ci and di, if there are any zero cells, a continuity correction
 #'  (CC) is added upto 0.5. This function checks if this addition of continuity correction causes
 #'  the reversing the Odds Ratio, Relative Risk and Risk Difference.
@@ -390,7 +390,7 @@ if(RS.all.rr>0 & RS.zero.rr>0){
 } # End of RR function
 
 
-#'###################################################################################################
+####################################################################################################
 #'  Given an 2x2 table with ai, bi, ci and di, if there are any zero cells, a continuity correction
 #'  (CC) is added upto 0.5. This function checks if this addition of continuity correction causes
 #'  the reversing the Odds Ratio, Relative Risk and Risk Difference.
