@@ -1,6 +1,6 @@
 exportPattern("^[[:alpha:]]+")
 importFrom("stats", "chisq.test", "dhyper", "median", "pchisq",
-             "qchisq", "qnorm", "sd","ppois")
+             "qchisq", "qnorm", "sd","ppois","dpois", "quantile", "runif")
 importFrom("utils", "combn")
 importFrom("ORCI", "Woolf.CI","Gart.CI","Agrestiind.CI","MOVER.CI","Cornfieldexact.CI","Cornfieldmidp.CI","BPexact.CI","BPmidp.CI","Invsinh.CI")
 importFrom("PropCIs","orscoreci")
